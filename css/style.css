@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+}
+.title h2::after{
+    position: absolute;
+    content: '';
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90px;
+    height: 4px;
+background: rgba(0, 0, 0, 0.2);
+}
+.title p{
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 616px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+/* ==========================================
+                Nav part start 
+============================================== */
+nav {
+   position: absolute !important;
+   top: 60px;
+   left: 0;
+   width: 100%;
+   z-index: 9999;
+}
+nav .collapse ul li{
+    margin-left: 12px;
+}
+nav .collapse ul li a{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    transition: all linear .3s;
+}
+nav .collapse ul li a.active{
+    background: rgba(72, 66, 63, 0.3);
+}
+nav .collapse ul li a:hover{
+    background: rgba(72, 66, 63, 0.3);
+
+}
+/* ==========================================
+                Nav part end 
+============================================== */
+/* ==========================================
+                Banner part start 
+============================================== */
+#banner-part{
+    position: relative;
+}
+#banner-part .carousel-inner .carousel-item{
+    position: relative;
+}
+#banner-part .carousel-inner .carousel-item .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+#banner-part .carousel-inner .carousel-item .overlay h2{
+    width: 930px;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    padding-top: 240px;
+    color: #fff;
+}
+#banner-part .carousel-inner .carousel-item .overlay a{
+    display: inline-block;
+    margin-top: 60px;
+    padding: 28px 80px;
+    background: #eb7d4b;
+    color: #fff;
+    margin-bottom: 140px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+/* ==========================================
+                Banner part end 
+============================================== */
+/* ==========================================
+                Services part start
+============================================== */
+#service-part{
+    padding: 120px 0;
+    background: #17c2a4;
+}
+#service-part .item{
+    text-align: center;
+    margin-top: 80px;
+}
+#service-part .item h3{
+    color: #fff;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+#service-part .item p{
+    width: 280px;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+/* ==========================================
+                Services part end 
+============================================== */
+/* ==========================================
+                Team part start
+============================================== */
+#team-part{
+    padding: 120px 0;
+    background: #e7f1f8;
+}
+#team-part .title h2{
+    color: #3c4761;
+}
+#team-part .title p{
+    color: #3c4761;
+}
+#team-part .item{
+    margin-top: 75px;
+    text-align: center;
+}
+#team-part .item .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+#team-part .item .img img{
+    width: 100%;
+    border-radius: 50%;
+}
+#team-part .item .details h3{
+    margin-top: 40px;
+    color: #27283d;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+#team-part .item .details h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #30bae7;
+
+}
+#team-part .item .details p{
+    margin: 30px auto;
+    width: 195px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3c4761;
+}
+#team-part .item .icon{
+    text-align: center;
+}
+#team-part .item .icon i{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #bdd1df;
+    font-size: 16px;
+    line-height: 32px;
+    margin-right: 12px;
+    color: #fff;
+    transition: all linear .3s;
+}
+#team-part .item .icon i:hover{
+    background: #30bae7;
+}
+/* ==========================================
+                Team part end 
+============================================== */
+/* ==========================================
+                Skill part start
+============================================== */
+#skill-part{
+    padding: 120px 0;
+}
+#skill-part .title h2{
+    color: #3c4761;
+}
+#skill-part .title p{
+    color: #3c4761;
+    margin-bottom: 85px;
+}
+#skill-part .col-lg-3{
+    text-align: center;
+}
+#skill-part .col-lg-3 .fst-prg{
+    margin: auto;
+}
+#skill-part .col-lg-3 .scnd-prg{
+    margin: auto;
+}
+#skill-part .col-lg-3 .thrd-prg{
+    margin: auto;
+}
+#skill-part .col-lg-3 .fth-prg{
+    margin: auto;
+}
+#skill-part .col-lg-3 h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #3c4761;
+    margin-top: 30px;
+}
+/* ==========================================
+                Skill part end 
+============================================== */
+/* ==========================================
+                Portfolio part start
+============================================== */
+#port-part{
+    padding: 120px 0;
+    background: #ffdd99;
+}
+#port-part .title h2{
+    color: #393939;
+}
+#port-part .title p{
+    color: #393939;
+}
+#port-part .item-menu{
+    text-align: center;
+    margin-top: 44px;
+}
+#port-part .item-menu ul li{
+    display: inline-block;
+    padding: 12px 30px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-right: 12px;
+    color: #393939;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    cursor: default;
+    border-radius: 5px;
+}
+#port-part .item-menu ul li.mixitup-control-active{
+    background: #fff;
+}
+#port-part .port-item .main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#port-part .port-item .main .item{
+    margin: 55px 0;
+    text-align: center;
+}
+#port-part .port-item .main .item h5{
+    color: #393939;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 32px;
+}
+#port-part .button{
+    text-align: center;
+}
+#port-part .button a {
+    display: inline-block;
+    padding: 30px 60px;
+    color: #fff;
+    background: #17c2a4;
+}
+/* ==========================================
+                Portfolio part end 
+============================================== */
+/* ==========================================
+                About part start 
+============================================== */
+#about-part{
+    padding: 120px 0;
+    background: #d74680;
+}
+#about-part .item{
+    display: flex;
+}
+#about-part .item .img{
+    width: 25%;
+}
+#about-part .item .img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+#about-part .item .text{
+    width: 75%;
+}
+#about-part .item .text p{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: #fff;
+    font-style: italic;
+    width: 330px;
+    line-height: 24px;
+}
+#about-part .item .text h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+#about-part .item .text h5{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffdd99;
+}
+#about-part .col-lg-6{
+    margin-top: 70px;
+}
+/* ==========================================
+                About part end 
+============================================== */
+/* ==========================================
+                footer part start
+============================================== */
+footer{
+    padding: 120px 0;
+    background: #3c5499;
+}
+footer .form{
+    width: 860px;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+}
+footer .form input{
+    width: 49%;
+    padding: 20px;
+    border-radius: 5px;
+    background: #273a71;
+    color: #fff;
+    border: 0;
+}
+footer .form input::placeholder{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+footer .form input[type=email]{
+    margin-left: 12px;
+}
+footer .form textarea{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    resize: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+    background: #273a71;
+    border: 0;
+}
+footer .form textarea::placeholder{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+footer .form button{
+    padding: 30px 80px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background: #30bae7;
+    border: 0;
+}
+/* ==========================================
+                footer part end 
+============================================== */
+/* ==========================================
+                footer-bottom part start 
+============================================== */
+#footer-bottom{
+    padding: 50px 0;
+    text-align: center;
+    background: #344b8e;
+    border: 1px solid #afaeae;
+}
+#footer-bottom ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+#footer-bottom ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+#footer-bottom ul li a{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    transition: all linear .3s;
+}
+#footer-bottom ul li a:hover{
+    color: #30bae7;
+
+}
+/* ==========================================
+                footer-bottom part end 
+============================================== */
